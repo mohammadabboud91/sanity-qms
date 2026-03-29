@@ -1,0 +1,5 @@
+# Cloudflare Pages: pins build output so the site root serves dist/index.html
+# https://developers.cloudflare.com/pages/functions/wrangler-configuration/
+name = "sanity-qms"
+pages_build_output_dir = "dist"
+compatibility_date = "2025-03-01"
